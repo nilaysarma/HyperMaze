@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     {
         completeLevelUI.SetActive(true);
         levelScript.Pass();
-        AdManager.Instance.ShowInterstitial(); // <
+        // AdManager.Instance.ShowInterstitial();
     }
 
 }

@@ -14,18 +14,18 @@ public class MainMenu : MonoBehaviour
     public void LoadLevel (int sceneIndex)
     {
         StartCoroutine(LoadAsynchronously(sceneIndex));
-        DestroyBannerAd();
+        // DestroyBannerAd();
     }
 
-    void ShowBannerAd()
-    {
-        AdManager.Instance.ShowBanner();
-    }
+    // void ShowBannerAd()
+    // {
+    //     AdManager.Instance.ShowBanner();
+    // }
 
-    void DestroyBannerAd()
-    {
-        AdManager.Instance.DestroyBanner();
-    }
+    // void DestroyBannerAd()
+    // {
+    //     AdManager.Instance.DestroyBanner();
+    // }
 
     IEnumerator LoadAsynchronously (int sceneIndex)
     {
